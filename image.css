@@ -1,0 +1,18 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 2em);
+    background-color: black;
+    margin: 1em;
+  }
+  
+  .flex-container > div {
+    background-color: white;
+ 
+    width: 100px;
+    height: 100px;
+  }
+  body {
+      margin: 0;
+  }
