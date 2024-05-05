@@ -4,10 +4,9 @@ html {
 
 .panel>div {
     border: 5px solid blueviolet;
- 
-    height: calc(25% - 1em);
- 
+    height: calc(25% - 0.75em);
     margin-bottom: 1em;
+    box-sizing: border-box;
 }
 
 .content {
@@ -43,4 +42,14 @@ html {
 body {
     margin: 0;
     height: 100vh;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+a{
+    color:blue;
 }
